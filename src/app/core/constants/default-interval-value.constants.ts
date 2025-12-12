@@ -1,0 +1,3 @@
+export const INTERVAL_CLOCK_SMALL = 10;
+export const INTERVAL_CLOCK_MEDIUM = 100;
+export const INTERVAL_CLOCK_LARGE = 1000;

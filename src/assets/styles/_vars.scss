@@ -1,0 +1,67 @@
+@use 'font' as *;
+
+// colors
+$white: #fff;
+$red: #dd1c1c;
+$red-btn-hover: #dc6363;
+$red-click: #dc5f43;
+$green: #8ebd3f;
+$green-2: #71b400;
+$green-hover: #8ebd3f;
+$green-click: #5a9000;
+$green-dpa-status: #90ae51;
+$green-check: #26753b;
+$pandadoc: #68b778;
+$red-hover: #fefafa;
+$orange: #f2994a;
+$blue: #1d4287;
+$blue-bg: #dee7ff;
+$blue-hover: #4369b9;
+$blue-click: #002f6d;
+$blue-2: #bcceff;
+$blue-3: #3f8ff1;
+$blue-4: #a3b9ff;
+$grey-1: #9f9f9f;
+$grey-2: #cacaca;
+$grey-3: #3c3c3c;
+$grey-4: #fafafa;
+$grey-5: #6f767b;
+$grey-6: #fcfcfc;
+$grey-7: #8c92a0;
+$grey-8: #5f5f5f;
+$inactive: #eff1f4;
+$inactive-2: #e6ecf5;
+$main-color: #f6f8fc;
+$box-shadow: #f0f1ff;
+$red-box-shadow: #fff0f0;
+$purple: #a07bf4;
+$service-color: #42afd1;
+$yellow: #ffba19;
+$light-blue: #f6fafd;
+$filter-blue: #e9ebff;
+$hover-blue: #849eef;
+$attention: #eb8641;
+$dark-blue: #000736;
+$verification-green: #36934c;
+
+// typography
+$font-family-base: $readex-pro;
+$font-size-small: 14px;
+$font-size-base: 17px;
+$line-height-base: 21px;
+$tooltip-arrow-width: 10px;
+
+// sizes width
+$small-width: 500px;
+$medium-width: 800px;
+$large-width: 1200px;
+
+// padding
+$padding-medium: 20px;
+
+// gap
+$medium-gap: 16px;
+
+// radius
+$small-radius: 8px;
+$medium-radius: 12px;

@@ -1,0 +1,14 @@
+@use 'vars' as *;
+@use 'mixin' as *;
+@use 'font' as *;
+@use 'extends' as *;
+
+.component {
+  @extend .default-padding;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $main-color;
+}

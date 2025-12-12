@@ -1,0 +1,12 @@
+@use 'vars' as *;
+@use 'font' as *;
+
+@mixin font-base(
+  $size: $font-size-base,
+  $font-weight: 400,
+  $height: $line-height-base,
+  $font-style: normal,
+  $font-family: $font-family-base
+) {
+  font: $font-weight $font-style #{$size}/#{$height $font-family};
+}

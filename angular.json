@@ -20,6 +20,13 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            // === ПОЧАТОК: Додані опції для Sass ===
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/styles"
+              ]
+            },
+            // === КІНЕЦЬ: Додані опції для Sass ===
             "assets": [
               {
                 "glob": "**/*",
@@ -74,6 +81,11 @@
           "options": {
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/styles"
+              ]
+            },
             "assets": [
               {
                 "glob": "**/*",
